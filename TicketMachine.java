@@ -76,9 +76,19 @@ public class TicketMachine
         balance = 0;
     }
     
-    
+    /**
+     * Mensaje para avisar de insertar la cantidad correcta de dinero
+     */
     public void pront()
     {
         System.out.println("Please, insert the correct amount of money");
+    }
+    
+    /**
+     * Mostrar el precio
+     */
+    public void showPrice()
+    {
+        System.out.println("The price of a ticket is " + price + " cents");
     }
 }
