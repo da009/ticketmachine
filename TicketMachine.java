@@ -29,6 +29,16 @@ public class TicketMachine
         balance = 0;
         total = 0;
     }
+    
+    /**
+     * Crea una maquina con coste 800
+     */   
+    public TicketMachine()
+    {
+        price = 800;
+        balance = 0;
+        total = 0;
+    }
 
     /**
      * Return the price of a ticket.
@@ -79,7 +89,7 @@ public class TicketMachine
     /**
      * Mensaje para avisar de insertar la cantidad correcta de dinero
      */
-    public void pront()
+    public void prompt()
     {
         System.out.println("Please, insert the correct amount of money");
     }
